@@ -1,0 +1,29 @@
+#stats {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+#stats td,
+#stats th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#stats tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#stats tr:hover {
+  background-color: #ddd;
+}
+
+#stats th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: rgb(150, 137, 137);
+  color: white;
+}
